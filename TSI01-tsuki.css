@@ -457,7 +457,7 @@
     border: 1.5px solid transparent;
     border-radius: var(--tsuki-br-btn);
     background-color: transparent;
-    padding: var(--tsuki-sp-min-md) var(--tsuki-sp-min-xl);
+    /* padding: var(--tsuki-sp-min-md) var(--tsuki-sp-min-xl); */
     height: 32px;
     color: inherit;
     font-weight: 600;
@@ -492,7 +492,7 @@
 .TSI01 .btn-svg {
     transition: border-color .15s ease-out;
     border-color: inherit;
-    padding: 4px;
+    /* padding: 4px; */
     aspect-ratio: 1/1;
     overflow: hidden;
 }
