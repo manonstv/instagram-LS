@@ -77,10 +77,19 @@ body {
 }
 
 /*  Reset for compatibility */
+
+.TSI01 br {
+    display: none !important;
+}
+
 .TSI01 a {
     color: inherit;
     font-weight: 700;
     text-decoration: none;
+}
+
+.TSI01 p {
+    margin: 0;
 }
 
 .TSI01 a.link {
