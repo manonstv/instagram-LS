@@ -39,44 +39,14 @@
     --tsuki-device-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px;
 }
 
-/*  Smooth scrolling */
-@media (prefers-reduced-motion: no-preference) {
-    :root {
-        scroll-behavior: smooth;
-    }
-}
+/*  Reset for compatibility */
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 100%;
-    text-rendering: optimizeLegibility;
-}
-
-::selection {
-    background-color: var(--tsuki-clr-accent);
-    color: white;
-}
-
-body {
+.TSI01 {
     font-size: var(--tsuki-fs-base);
     line-height: var(--tsuki-lh-base);
     font-family: var(--tsuki-ff-base);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     color: var(--tsuki-clr-text);
 }
-
-/*  Reset for compatibility */
 
 .TSI01 br {
     display: none !important;
