@@ -566,3 +566,14 @@
 .TSI01 .grid-pic > img:hover {
     opacity: .875;
 }
+
+/*  Credits
+===================================================== */
+
+.TSI01 .copy-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: var(--tsuki-sp-min-md);
+    font-size: var(--tsuki-fs-tiny);
+}
