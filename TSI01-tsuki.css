@@ -574,6 +574,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-block: var(--tsuki-sp-min-md);
-    font-size: var(--tsuki-fs-tiny);
+    margin-top: var(--tsuki-sp-min-xl);
+    font-size: 11px;
 }
