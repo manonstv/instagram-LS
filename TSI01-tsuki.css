@@ -283,7 +283,7 @@
 .TSI01 .user-banner {
     display: flex;
     align-items: center;
-    gap: var(--tsuki-sp-base-lg);
+    gap: var(--tsuki-sp-double);
     margin-bottom: var(--tsuki-sp-base);
     max-width: 100%;
     overflow: hidden;
