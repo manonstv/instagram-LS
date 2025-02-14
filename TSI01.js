@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     const followBtn = document.getElementById("followBtn");
+    
+    if (!followBtn) return;
+
     const textSpan = followBtn.querySelector(".text");
 
-    // Vérifier si l'utilisateur a déjà suivi
     const isFollowing = localStorage.getItem("isFollowing");
 
     if (isFollowing === "true") {
@@ -15,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (this.classList.contains("following")) {
             textSpan.textContent = "Suivi(e)";
-            localStorage.setItem("isFollowing", "true"); // Stocker l'état
+            localStorage.setItem("isFollowing", "true");
         } else {
             textSpan.textContent = "Suivre";
-            localStorage.setItem("isFollowing", "false"); // Réinitialiser l'état
+            localStorage.setItem("isFollowing", "false");
         }
     });
 });
